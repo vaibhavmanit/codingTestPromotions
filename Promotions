@@ -1,0 +1,14 @@
+package com.java.promotionengine.promotions;
+
+import com.java.promotionengine.sku.SKUId;
+
+public class Promotions {
+	private SKUId sKUId;
+	private int numberOfSKUid;
+	
+	public Promotions(SKUId sKUId, int numberOfSKUid) {
+		this.sKUId = sKUId;
+		this.numberOfSKUid = numberOfSKUid;
+	}
+	
+}
