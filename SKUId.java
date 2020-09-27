@@ -9,4 +9,11 @@ public enum SKUId {
 	private SKUId(int price){
 		this.unitPrice = price;
 	}
+	public int valueOf(SKUId key) {
+		return unitPrice;
+	}
+	
+	public String toString(SKUId key) {
+		return "Unit price of " + key + "is	:	" + unitPrice;
+	}
 }
